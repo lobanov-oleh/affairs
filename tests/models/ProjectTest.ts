@@ -1,7 +1,7 @@
 import "mocha"
 import "should"
 
-import { Project } from "../src/models/Project";
+import { Project } from "../../src/models/Project";
 
 const AMOUNT = 1000
 const DEADLINE = 100
