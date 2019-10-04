@@ -1,5 +1,5 @@
-import { Project } from "./Project";
-import { User } from "./User";
+import { Project } from "./Project"
+import { User } from "./User"
 
 export class Contribution {
     private _Project: Project
