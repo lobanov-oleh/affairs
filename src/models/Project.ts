@@ -1,6 +1,9 @@
+import { User } from "./User"
+
 export class Project {
     private _amount: number
     private _deadline: number | null
+    private _User: User
 
     get amount(): number {
         return this._amount
@@ -16,5 +19,15 @@ export class Project {
 
     set deadline(deadline: number | null) {
         this._deadline = deadline
+    }
+
+    get User(): User
+    {
+        return this._User
+    }
+
+    set User(User: User)
+    {
+        this._User = User
     }
 }
