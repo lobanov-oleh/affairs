@@ -4,6 +4,7 @@ import "should"
 import { User } from "../../src/models/User";
 
 const FACEBOOK_USER_ID: string = '534973630640609'
+const ROLE: string = 'worker'
 
 describe("User", () => {
     let tested: User
@@ -16,4 +17,10 @@ describe("User", () => {
             tested.facebookUserID.should.be.equal(FACEBOOK_USER_ID)
         });
     });
+
+    describe("Test role", () => {
+        it("should set/get role", () => {
+            tested.role = ROLE
+            tested.role.should.be.equal(ROLE)
+        });
 });

@@ -7,7 +7,7 @@ import { Offer } from "../../src/models/Offer";
 
 const CONTRIBUTION: Contribution = new Contribution()
 const USER: User = new User()
-const AMOUNT: number = 1000
+const PRICE: number = 1000
 
 describe("Offer", () => {
     let tested: Offer
@@ -28,10 +28,10 @@ describe("Offer", () => {
         });
     });
 
-    describe("Test amount", () => {
-        it("should set/get amount", () => {
-            tested.amount = AMOUNT
-            tested.amount.should.be.equal(AMOUNT)
+    describe("Test price", () => {
+        it("should set/get price", () => {
+            tested.price = PRICE
+            tested.price.should.be.equal(PRICE)
         });
     });
 });

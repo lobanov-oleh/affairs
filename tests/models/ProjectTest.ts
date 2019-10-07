@@ -5,6 +5,7 @@ import { User } from "../../src/models/User";
 import { Project } from "../../src/models/Project";
 
 const USER: User = new User()
+const DESCRIPTION = 'Project description'
 const AMOUNT = 1000
 const DEADLINE = 100
 
@@ -17,6 +18,13 @@ describe("Project", () => {
         it("should set/get User", () => {
             tested.User = USER
             tested.User.should.be.equal(USER)
+        });
+    });
+
+    describe("Test description", () => {
+        it("should set/get description", () => {
+            tested.description = DESCRIPTION
+            tested.description.should.be.equal(DESCRIPTION)
         });
     });
 
