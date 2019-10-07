@@ -4,6 +4,7 @@ export class Project {
     private _amount: number
     private _deadline: number | null
     private _User: User
+    private _description: string
 
     get amount(): number {
         return this._amount
@@ -21,13 +22,19 @@ export class Project {
         this._deadline = deadline
     }
 
-    get User(): User
-    {
+    get User(): User {
         return this._User
     }
 
-    set User(User: User)
-    {
+    set User(User: User) {
         this._User = User
+    }
+
+    get description(): string {
+        return this._description
+    }
+
+    set description(description: string) {
+        this._description = description
     }
 }

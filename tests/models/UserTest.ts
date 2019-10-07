@@ -23,4 +23,5 @@ describe("User", () => {
             tested.role = ROLE
             tested.role.should.be.equal(ROLE)
         });
+    });
 });

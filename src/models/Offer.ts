@@ -4,7 +4,7 @@ import { User } from "./User"
 export class Offer {
     private _Contribution: Contribution
     private _User: User
-    private _amount: number
+    private _price: number
 
     get Contribution(): Contribution {
         return this._Contribution
@@ -22,11 +22,11 @@ export class Offer {
         this._User = User
     }
 
-    get amount(): number {
-        return this._amount
+    get price(): number {
+        return this._price
     }
 
-    set amount(amount: number) {
-        this._amount = amount
+    set price(price: number) {
+        this._price = price
     }
 }
