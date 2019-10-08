@@ -17,11 +17,4 @@ describe("User", () => {
             tested.facebookUserID.should.be.equal(FACEBOOK_USER_ID)
         });
     });
-
-    describe("Test role", () => {
-        it("should set/get role", () => {
-            tested.role = ROLE
-            tested.role.should.be.equal(ROLE)
-        });
-    });
 });
