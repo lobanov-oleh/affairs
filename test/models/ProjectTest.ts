@@ -1,8 +1,8 @@
 import "mocha"
 import "should"
 
-import { User } from "@models/User";
-import { Project } from "@models/Project";
+import { User } from "@models/User"
+import { Project } from "@models/Project"
 
 const USER: User = new User()
 const DESCRIPTION = 'Project description'
@@ -18,27 +18,27 @@ describe("Project", () => {
         it("should set/get User", () => {
             tested.User = USER
             tested.User.should.be.equal(USER)
-        });
-    });
+        })
+    })
 
     describe("Test description", () => {
         it("should set/get description", () => {
             tested.description = DESCRIPTION
             tested.description.should.be.equal(DESCRIPTION)
-        });
-    });
+        })
+    })
 
     describe("Test amount", () => {
         it("should set/get amount", () => {
             tested.amount = AMOUNT
             tested.amount.should.be.equal(AMOUNT)
-        });
-    });
+        })
+    })
 
     describe("Test deadline", () => {
         it("should set/get deadline", () => {
             tested.deadline = DEADLINE
             tested.deadline.should.be.equal(DEADLINE)
-        });
-    });
-});
+        })
+    })
+})

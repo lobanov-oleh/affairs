@@ -1,7 +1,7 @@
 import "mocha"
 import "should"
 
-import { User } from "@models/User";
+import { User } from "@models/User"
 
 const FACEBOOK_USER_ID: string = '534973630640609'
 const ROLE: string = 'worker'
@@ -15,6 +15,6 @@ describe("User", () => {
         it("should set/get Facebook user ID", () => {
             tested.facebookUserID = FACEBOOK_USER_ID
             tested.facebookUserID.should.be.equal(FACEBOOK_USER_ID)
-        });
-    });
-});
+        })
+    })
+})
