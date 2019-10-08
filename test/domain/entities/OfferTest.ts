@@ -1,9 +1,9 @@
 import "mocha"
 import "should"
 
-import Contribution from "@models/Contribution"
-import User from "@models/User"
-import Offer from "@models/Offer"
+import Contribution from "@domain/entities/Contribution"
+import User from "@domain/entities/User"
+import Offer from "@domain/entities/Offer"
 
 const CONTRIBUTION: Contribution = new Contribution()
 const USER: User = new User()

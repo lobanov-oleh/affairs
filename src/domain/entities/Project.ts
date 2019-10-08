@@ -1,4 +1,4 @@
-import User from "@models/User"
+import User from "@domain/entities/User"
 
 class Project {
     private _amount: number

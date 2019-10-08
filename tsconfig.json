@@ -9,8 +9,8 @@
         "outDir": "dist",
         "baseUrl": "src",
         "paths": {
-            "@models/*": [
-                "models/*"
+            "@domain/*": [
+                "domain/*"
             ]
         }
     },

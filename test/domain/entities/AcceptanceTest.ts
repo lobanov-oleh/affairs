@@ -1,8 +1,8 @@
 import "mocha"
 import "should"
 
-import Acceptance from "@models/Acceptance"
-import Obligation from "@models/Obligation"
+import Acceptance from "@domain/entities/Acceptance"
+import Obligation from "@domain/entities/Obligation"
 
 const OBLIGATION: Obligation = new Obligation()
 const BUYER_REVIEW: string = 'Buyer review for the worker'

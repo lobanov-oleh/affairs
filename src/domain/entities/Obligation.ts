@@ -1,4 +1,4 @@
-import Payment from "@models/Payment";
+import Payment from "@domain/entities/Payment";
 
 class Obligation {
     private _Payment: Payment

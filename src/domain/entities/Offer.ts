@@ -1,5 +1,5 @@
-import Contribution from "@models/Contribution"
-import User from "@models/User"
+import Contribution from "@domain/entities/Contribution"
+import User from "@domain/entities/User"
 
 class Offer {
     private _Contribution: Contribution

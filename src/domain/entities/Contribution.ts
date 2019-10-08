@@ -1,5 +1,5 @@
-import Project from "@models/Project"
-import User from "@models/User"
+import Project from "@domain/entities/Project"
+import User from "@domain/entities/User"
 
 class Contribution {
     private _Project: Project

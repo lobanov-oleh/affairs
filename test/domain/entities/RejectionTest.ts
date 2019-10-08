@@ -1,8 +1,8 @@
 import "mocha"
 import "should"
 
-import Rejection from "@models/Rejection"
-import Obligation from "@models/Obligation"
+import Rejection from "@domain/entities/Rejection"
+import Obligation from "@domain/entities/Obligation"
 
 const OBLIGATION: Obligation = new Obligation()
 

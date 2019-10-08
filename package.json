@@ -17,6 +17,6 @@
         "typescript": "2.1.6"
     },
     "_moduleAliases": {
-        "@models": "dist/src/models"
+        "@domain": "dist/src/domain"
     }
 }

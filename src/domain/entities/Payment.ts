@@ -1,5 +1,5 @@
-import Offer from "@models/Offer";
-import User from "@models/User";
+import Offer from "@domain/entities/Offer";
+import User from "@domain/entities/User";
 
 class Payment {
     private _Offer: Offer

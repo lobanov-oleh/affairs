@@ -1,8 +1,8 @@
 import "mocha"
 import "should"
 
-import User from "@models/User"
-import Project from "@models/Project"
+import User from "@domain/entities/User"
+import Project from "@domain/entities/Project"
 
 const USER: User = new User()
 const DESCRIPTION = 'Project description'

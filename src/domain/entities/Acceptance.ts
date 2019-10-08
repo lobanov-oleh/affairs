@@ -1,4 +1,4 @@
-import Obligation from "@models/Obligation";
+import Obligation from "@domain/entities/Obligation";
 
 class Acceptance {
     private _Obligation: Obligation
