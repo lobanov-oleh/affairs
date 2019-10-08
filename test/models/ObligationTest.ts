@@ -1,8 +1,8 @@
 import "mocha"
 import "should"
 
-import { Obligation } from "@models/Obligation"
-import { Payment } from "@models/Payment"
+import Obligation from "@models/Obligation"
+import Payment from "@models/Payment"
 
 const PAYMENT: Payment = new Payment()
 const CODE: string = 'unique secret code'

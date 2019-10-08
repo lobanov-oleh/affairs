@@ -1,7 +1,7 @@
-import { Project } from "@models/Project"
-import { User } from "@models/User"
+import Project from "@models/Project"
+import User from "@models/User"
 
-export class Contribution {
+class Contribution {
     private _Project: Project
     private _User: User
     private _description: string
@@ -30,3 +30,5 @@ export class Contribution {
         this._description = description
     }
 }
+
+export default Contribution

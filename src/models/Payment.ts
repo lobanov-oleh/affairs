@@ -1,7 +1,7 @@
-import { Offer } from "./Offer";
-import { User } from "./User";
+import Offer from "@models/Offer";
+import User from "@models/User";
 
-export class Payment {
+class Payment {
     private _Offer: Offer
     private _User: User
 
@@ -21,3 +21,5 @@ export class Payment {
         this._User = User
     }
 }
+
+export default Payment

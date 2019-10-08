@@ -1,6 +1,6 @@
-import { User } from "@models/User"
+import User from "@models/User"
 
-export class Project {
+class Project {
     private _amount: number
     private _deadline: number | null
     private _User: User
@@ -38,3 +38,5 @@ export class Project {
         this._description = description
     }
 }
+
+export default Project

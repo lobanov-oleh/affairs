@@ -1,7 +1,7 @@
-import { Contribution } from "@models/Contribution"
-import { User } from "@models/User"
+import Contribution from "@models/Contribution"
+import User from "@models/User"
 
-export class Offer {
+class Offer {
     private _Contribution: Contribution
     private _User: User
     private _price: number
@@ -30,3 +30,5 @@ export class Offer {
         this._price = price
     }
 }
+
+export default Offer

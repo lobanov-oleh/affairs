@@ -1,7 +1,7 @@
 import "mocha"
 import "should"
 
-import { User } from "@models/User"
+import User from "@models/User"
 
 const FACEBOOK_USER_ID: string = '534973630640609'
 const ROLE: string = 'worker'

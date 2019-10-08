@@ -1,4 +1,4 @@
-export class User {
+class User {
     private _facebookUserID: string
 
     get facebookUserID(): string {
@@ -9,3 +9,5 @@ export class User {
         this._facebookUserID = facebookUserID
     }
 }
+
+export default User

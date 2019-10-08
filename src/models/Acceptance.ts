@@ -1,6 +1,6 @@
-import { Obligation } from "./Obligation";
+import Obligation from "@models/Obligation";
 
-export class Acceptance {
+class Acceptance {
     private _Obligation: Obligation
     private _buyerReview: string
     private _workerReview: string
@@ -29,3 +29,5 @@ export class Acceptance {
         this._workerReview = workerReview
     }
 }
+
+export default Acceptance

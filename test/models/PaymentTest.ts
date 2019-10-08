@@ -1,9 +1,9 @@
 import "mocha"
 import "should"
 
-import { Payment } from "@models/Payment"
-import { Offer } from "@models/Offer"
-import { User } from "@models/User"
+import Payment from "@models/Payment"
+import Offer from "@models/Offer"
+import User from "@models/User"
 
 const OFFER: Offer = new Offer()
 const USER: User = new User()

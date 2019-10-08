@@ -1,6 +1,6 @@
-import { Payment } from "./Payment";
+import Payment from "@models/Payment";
 
-export class Obligation {
+class Obligation {
     private _Payment: Payment
     private _code: string
 
@@ -20,3 +20,5 @@ export class Obligation {
         this._code = code
     }
 }
+
+export default Obligation
