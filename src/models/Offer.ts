@@ -1,5 +1,5 @@
-import { Contribution } from "./Contribution"
-import { User } from "./User"
+import { Contribution } from "@models/Contribution"
+import { User } from "@models/User"
 
 export class Offer {
     private _Contribution: Contribution

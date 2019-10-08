@@ -1,1 +1,5 @@
 # Goodwill
+
+```
+$ npm test
+```

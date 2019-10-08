@@ -1,9 +1,9 @@
 import "mocha"
 import "should"
 
-import { Contribution } from "../../src/models/Contribution";
-import { User } from "../../src/models/User";
-import { Offer } from "../../src/models/Offer";
+import { Contribution } from "@models/Contribution";
+import { User } from "@models/User";
+import { Offer } from "@models/Offer";
 
 const CONTRIBUTION: Contribution = new Contribution()
 const USER: User = new User()

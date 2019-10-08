@@ -6,13 +6,17 @@
     "scripts": {
         "build": "tsc",
         "pretest": "npm run build",
-        "test": "mocha dist/tests --recursive"
+        "test": "mocha dist/test"
     },
     "devDependencies": {
         "@types/mocha": "2.2.39",
         "@types/should": "8.1.30",
-        "mocha": "3.2.0",
+        "module-alias": "^2.2.2",
+        "mocha": "^6.2.1",
         "should": "11.2.0",
         "typescript": "2.1.6"
+    },
+    "_moduleAliases": {
+        "@models": "dist/src/models"
     }
 }
