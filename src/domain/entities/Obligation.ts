@@ -1,24 +1,24 @@
-import Payment from "@domain/entities/Payment";
+import Payment from '@domain/entities/Payment'
 
 class Obligation {
-    private _Payment: Payment
-    private _code: string
+  private _Payment: Payment
+  private _code: string
 
-    get Payment(): Payment {
-        return this._Payment
-    }
+  get Payment (): Payment {
+    return this._Payment
+  }
 
-    set Payment(Payment: Payment) {
-        this._Payment = Payment
-    }
+  set Payment (Payment: Payment) {
+    this._Payment = Payment
+  }
 
-    get code(): string {
-        return this._code
-    }
+  get code (): string {
+    return this._code
+  }
 
-    set code(code: string) {
-        this._code = code
-    }
+  set code (code: string) {
+    this._code = code
+  }
 }
 
 export default Obligation

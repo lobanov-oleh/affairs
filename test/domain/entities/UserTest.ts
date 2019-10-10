@@ -1,20 +1,19 @@
-import "mocha"
-import "should"
+import 'mocha'
+import 'should'
 
-import User from "@domain/entities/User"
+import User from '@domain/entities/User'
 
-const FACEBOOK_USER_ID: string = '534973630640609'
-const ROLE: string = 'worker'
+const FACEBOOK_USER_ID = '534973630640609'
 
-describe("User", () => {
-    let tested: User
+describe('User', () => {
+  let tested: User
 
-    beforeEach(() => tested = new User())
+  beforeEach(() => { tested = new User() })
 
-    describe("Test Facebook user ID", () => {
-        it("should set/get Facebook user ID", () => {
-            tested.facebookUserID = FACEBOOK_USER_ID
-            tested.facebookUserID.should.be.equal(FACEBOOK_USER_ID)
-        })
+  describe('Test Facebook user ID', () => {
+    it('should set/get Facebook user ID', () => {
+      tested.facebookUserID = FACEBOOK_USER_ID
+      tested.facebookUserID.should.be.equal(FACEBOOK_USER_ID)
     })
+  })
 })
